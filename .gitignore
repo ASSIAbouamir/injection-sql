@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific data & models (avoid committing huge datasets to git)
+# Keep only structure if needed, but exclude the huge CSV and local generated files
+*.csv
+*.joblib
+data/processed/
+Projet_injection_sql/data/processed/
+!data/processed/.gitkeep
+!Projet_injection_sql/data/processed/.gitkeep
